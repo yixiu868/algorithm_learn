@@ -1,6 +1,7 @@
 # encoding=utf8
 import random
 
+# 选择排序
 def selectSort(nums):
     # 循环趟数
     for i in range(len(nums) - 1):

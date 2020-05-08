@@ -2,6 +2,7 @@
 
 import random
 
+# 插入排序
 def insert_sort(nums):
     # 排序趟数
     for i in range(1, len(nums)):

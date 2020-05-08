@@ -1,6 +1,7 @@
 # encoding=utf8
 import random
 
+# 冒泡排序
 def bubbleSort(nums):
     i = 1
     while i < len(nums):
