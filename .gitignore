@@ -1,0 +1,9 @@
+venv
+.pydevproject
+.project
+.idea/vcs.xml
+.idea/modules.xml
+.idea/misc.xml
+.idea/inspectionProfiles/profiles_settings.xml
+.idea/algorithm_learn.iml
+.idea/.gitignore
