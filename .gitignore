@@ -7,3 +7,4 @@ venv
 .idea/inspectionProfiles/profiles_settings.xml
 .idea/algorithm_learn.iml
 .idea/.gitignore
+/.idea/workspace.xml
