@@ -26,7 +26,10 @@ def binary_search(data_list, target):
 
 
 if '__main__' == __name__:
-    ret1 = binary_search(list(range(1, 1000)), 888)
-    ret2 = binary_search(list(range(1, 1000)), 1000)
-    print(ret1)
-    print(ret2)
+    # ret1 = binary_search(list(range(1, 1000)), 888)
+    # ret2 = binary_search(list(range(1, 1000)), 1000)
+    # print(ret1)
+    # print(ret2)
+    lists = [1, 5, 7, 8, 22, 54, 99, 123, 200, 222, 444]
+    ret = binary_search(lists, 444)
+    print(ret)
