@@ -9,6 +9,11 @@ def sum(arr):
 
 
 def sum2(arr):
+    """
+    循环版实现求和
+    :param arr:
+    :return:
+    """
     total = 0
     for x in arr:
         total += x
