@@ -2,8 +2,14 @@
 
 import random
 
-# 插入排序
+
 def insert_sort(nums):
+    """
+    插入排序
+    插入排序时一种稳定的排序方法，最好的情况下的时间复杂度为O(n), 最坏的情况下时间复杂度为O(n²), 平均情况下时间复杂度为O(n²). 空间复杂度为O(1)
+    :param nums:
+    :return:
+    """
     # 排序趟数
     for i in range(1, len(nums)):
         current = nums[i]
